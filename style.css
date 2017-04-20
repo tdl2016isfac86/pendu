@@ -1,0 +1,27 @@
+body
+{
+    font-family: consolas,Inconsolata; 
+}
+
+button,input{
+    float: right;
+}
+
+
+span
+{
+    width: 25px;
+    height: 25px;
+    padding: 3px 12px;
+    margin: 15px 5px;
+    border: solid 1px gray;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+span:hover, .active
+{
+    color: #F79400;
+    border-color: black;
+    background-color: #e3e3e3;
+}
